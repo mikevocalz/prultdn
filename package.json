@@ -1,0 +1,28 @@
+{
+  "name": "power-rangers-ultd",
+  "version": "1.0.0",
+  "description": "Social Network for Power Rangers fans",
+  "main": "index.tsx",
+  "author": "Mike Allen",  
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@material-ui/core": "^4.8.3",
+    "@material-ui/styles": "^4.8.2",
+    "firebase": "^7.7.0",
+    "next": "^9.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "rxfire": "^3.9.8",
+    "rxjs": "^6.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}
