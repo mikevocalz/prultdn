@@ -10,9 +10,9 @@ import Button from "@material-ui/core/Button";
 export default function About() {
   return (
     <Container
-      maxWidth='xl'
+      maxWidth='md'
       style={{
-        padding: 30,
+        paddingTop: 30,
         backgroundColor: "yellow",
         justifyContent: "center"
       }}

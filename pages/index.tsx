@@ -25,7 +25,12 @@ import React from "react";
 // );
 export default function Index() {
   return (
-    <Container maxWidth='xl' style={{ padding: 0 }}>
+    <Container
+      maxWidth='md'
+      style={{ marginTop: 60, backgroundColor: "yellow" }}
+    >
+      {" "}
+      <div style={{ padding: 30, fontSize: 20 }}>Home</div>
       <div>{/* { slider } */}</div>
       <div style={{ height: 4000 }}></div>
     </Container>
