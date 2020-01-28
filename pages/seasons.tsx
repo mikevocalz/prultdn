@@ -34,7 +34,7 @@ export default function About() {
               sm={6}
               md={4}
               lg={4}
-              xl={3}
+              xl={4}
             >
               <SeasonCard
                 key={season.id}
