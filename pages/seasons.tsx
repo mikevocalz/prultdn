@@ -6,7 +6,7 @@ import { mockData } from "../Api/data";
 export default function About() {
   return (
     <Container
-      maxWidth='lg'
+      maxWidth='xl'
       style={{
         paddingTop: 30,
         //backgroundColor: "yellow",

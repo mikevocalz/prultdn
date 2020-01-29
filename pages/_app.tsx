@@ -31,41 +31,7 @@ class MyApp extends App {
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <MenuAppBar />
-          <Grid
-            container
-            justify='center'
-            spacing={0}
-            style={{ paddingTop: 0 }}
-          >
-            <Hidden xlUp>
-              <Grid item xs>
-                <Paper
-                  style={{
-                    padding: theme.spacing(2),
-                    textAlign: "center",
-                    color: theme.palette.text.secondary
-                  }}
-                >
-                  xs
-                </Paper>
-              </Grid>
-            </Hidden>
-            <Grid item xs={12}>
-              <Component {...pageProps} />
-            </Grid>
-            <Hidden xlUp>
-              <Grid item xs style={{ alignItems: "flex-start" }}>
-                <div
-                  style={{
-                    textAlign: "center",
-                    color: "black"
-                  }}
-                >
-                  xs
-                </div>
-              </Grid>
-            </Hidden>
-          </Grid>
+          <Component {...pageProps} />
         </ThemeProvider>
       </div>
     );
